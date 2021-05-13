@@ -7,8 +7,8 @@
 * \email email liujiayu@sjtu.edu.cn
 */
 
-#pragma comment(lib, "DobotDll.lib")
-#include "DobotDll.h"
+#pragma comment(lib, "./include/DobotDll.lib")
+#include "./include/DobotDll.h"
 #include <iostream>
 using namespace std;
 

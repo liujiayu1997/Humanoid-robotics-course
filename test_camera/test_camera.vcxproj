@@ -40,8 +40,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ExecutablePath>$(ExecutablePath)</ExecutablePath>
-    <LibraryPath>C:\Program Files\Daheng Imaging\GalaxySDK\Samples\C++ SDK\lib\x86;C:\Users\Jiayu\Downloads\opencv\build\x86\vc12\lib;C:\Users\Jiayu\source\repos\test_camera\test_camera\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\Program Files\Daheng Imaging\GalaxySDK\Samples\C++ SDK\inc;C:\Users\Jiayu\Downloads\opencv\build\include;C:\Users\Jiayu\Downloads\opencv\build\include\opencv;C:\Users\Jiayu\Downloads\opencv\build\include\opencv2;C:\Users\Jiayu\source\repos\test_camera\test_camera\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Daheng Imaging\GalaxySDK\Samples\C++ SDK\lib\x86;C:\Users\Jiayu\Downloads\opencv\build\x86\vc12\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files\Daheng Imaging\GalaxySDK\Samples\C++ SDK\inc;C:\Users\Jiayu\Downloads\opencv\build\include;C:\Users\Jiayu\Downloads\opencv\build\include\opencv;C:\Users\Jiayu\Downloads\opencv\build\include\opencv2;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
